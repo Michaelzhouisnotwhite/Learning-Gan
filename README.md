@@ -16,9 +16,9 @@ id3((a x b))
 id4((ab + c))
 id5((c))
 
-id1 --> id3 --> id4
-id2 --> id3
-id5 --> id4
+id1 --> id3 --> id4;
+id2 --> id3;
+id5 --> id4;
 ```
 $$
 {
