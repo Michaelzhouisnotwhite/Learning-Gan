@@ -169,5 +169,5 @@ if __name__ == "__main__":
     z = add(y, c)
 
     session = Session()
-    output = session.run(z, feed_dict={c: [3, 3]})
+    output = session.run(y)
     print(output)
